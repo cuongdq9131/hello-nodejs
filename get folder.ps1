@@ -13,3 +13,5 @@ $dataColl += $dataObject
 
 $dataColl|Sort-object @{Expression = "Folder Name";}| Out-GridView -Title “Size of subdirectories”
 #$dataColl|Export-Csv "F:\Setup\abc.csv"
+
+abc
